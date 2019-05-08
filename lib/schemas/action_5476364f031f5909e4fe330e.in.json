@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "FromStationCode": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "N06"
+            ],
+            "default": "N06"
+        },
+        "ToStationCode": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "G05"
+            ],
+            "default": "G05"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "StationCode": {
+            "type": "string",
+            "enum": [
+                "E08",
+                "F06"
+            ]
+        }
+    }
+}

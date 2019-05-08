@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "FromStationCode": {
+            "type": "string",
+            "enum": [
+                "E10"
+            ],
+            "default": "E10"
+        },
+        "ToStationCode": {
+            "type": "string",
+            "enum": [
+                "J03"
+            ],
+            "default": "J03"
+        }
+    }
+}
